@@ -121,7 +121,7 @@ http://localhost:8501
 
 You can enter transaction data manually or load a sample to see live fraud detection results.
 
-## 📁 Project Structure
+# 📁 Project Structure
 ```bash
 CREDIT_CARD_FRAUD_DETECTION/
 ├─ data/
@@ -143,7 +143,7 @@ CREDIT_CARD_FRAUD_DETECTION/
 └─ README.md                         # Documentation
 ```
 
-## 🧩 Model Overview
+# 🧩 Model Overview
 Architecture: Symmetrical Deep Autoencoder
 - Encoder: [31 → 16 → 8 → 4]
 - Decoder: [4 → 8 → 16 → 31]
@@ -160,7 +160,7 @@ Batch Size: 32
 
 Threshold (MSE): 1.304159 for 90% recall
 
-## 📊 Results
+# 📊 Results
 Class	        Precision	    Recall	    F1-Score	Support
 Legitimate(0)	   1.00	         0.99	      1.00	     56863
 Fraud(1)	       0.58	         0.90	      0.70	      98

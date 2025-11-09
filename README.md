@@ -65,20 +65,20 @@ git clone https://github.com/your-username/credit_card_fraud_detection.git
 cd credit_card_fraud_detection
 
 ### Create and Activate a Virtual Environment
-# For Windows:
+For Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
 
-# For macOS/Linux:
+For macOS/Linux:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-# Install Dependencies
+Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -86,7 +86,7 @@ pip install -r requirements.txt
 Download Dataset
 Download the Credit Card Fraud Detection Dataset from Kaggle:
 
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+[Click Here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 Place the downloaded creditcard.csv inside the /data folder.
 

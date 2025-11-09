@@ -161,16 +161,16 @@ Visual Outputs
 🤝 Contributing
 Contributions are welcome and appreciated!
 
-### Steps to contribute:
-# Fork the repository
+# Steps to contribute:
+### Fork the repository
 
-# Create your branch
+### Create your branch
 git checkout -b feature/AmazingFeature
 
-# Commit your changes
+### Commit your changes
 git commit -m "Add some AmazingFeature"
 
-# Push to your branch
+### Push to your branch
 git push origin feature/AmazingFeature
 
-# Open a Pull Request
+### Open a Pull Request

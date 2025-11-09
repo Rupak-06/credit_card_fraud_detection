@@ -177,21 +177,21 @@ Visual Outputs
 Contributions are welcome and appreciated!
 
 # Steps to contribute:
-Fork the repository
+1. Fork the repository
 
-Create your branch
+2. Create your branch
 ```bash
 git checkout -b feature/AmazingFeature
 ```
 
-Commit your changes
+3. Commit your changes
 ```bash
 git commit -m "Add some AmazingFeature"
 ```
 
-Push to your branch
+4. Push to your branch
 ```bash
 git push origin feature/AmazingFeature
 ```
 
-Open a Pull Request
+5. Open a Pull Request

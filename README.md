@@ -176,22 +176,22 @@ Visual Outputs
 🤝 Contributing
 Contributions are welcome and appreciated!
 
-# Steps to contribute:
-1. Fork the repository
+### Steps to contribute:
+# Fork the repository
 
-2. Create your branch
+# Create your branch
 ```bash
 git checkout -b feature/AmazingFeature
 ```
 
-3. Commit your changes
+# Commit your changes
 ```bash
 git commit -m "Add some AmazingFeature"
 ```
 
-4. Push to your branch
+# Push to your branch
 ```bash
 git push origin feature/AmazingFeature
 ```
 
-5. Open a Pull Request
+# Open a Pull Request

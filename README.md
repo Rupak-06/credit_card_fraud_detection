@@ -122,6 +122,7 @@ http://localhost:8501
 You can enter transaction data manually or load a sample to see live fraud detection results.
 
 📁 Project Structure
+```bash
 CREDIT_CARD_FRAUD_DETECTION/
 ├─ data/
 │  └─ creditcard.csv                 # Dataset
@@ -140,6 +141,7 @@ CREDIT_CARD_FRAUD_DETECTION/
 ├─ main.py                           # Entry script
 ├─ requirements.txt                  # Dependencies
 └─ README.md                         # Documentation
+```
 
 🧩 Model Overview
 Architecture: Symmetrical Deep Autoencoder

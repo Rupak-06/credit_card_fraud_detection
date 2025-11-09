@@ -173,10 +173,10 @@ Visual Outputs
 - training_loss_plot.png → Autoencoder loss curve over epochs
 - confusion_matrix.png → Evaluation on test set
 
-### 🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome and appreciated!
 
-# Steps to contribute:
+### Steps to contribute:
 1. Fork the repository
 
 2. Create your branch

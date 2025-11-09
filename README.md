@@ -66,16 +66,22 @@ cd credit_card_fraud_detection
 
 ### Create and Activate a Virtual Environment
 # For Windows:
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 
 # For macOS/Linux:
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 # Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 Download Dataset
 Download the Credit Card Fraud Detection Dataset from Kaggle:
@@ -86,7 +92,9 @@ Place the downloaded creditcard.csv inside the /data folder.
 
 ▶️ How to Run
 1️⃣ Train the Model
+```bash
 python src/train.py
+```
 
 This trains the deep autoencoder and saves:
 - Trained model → models/fraud_autoencoder.h5
@@ -94,17 +102,22 @@ This trains the deep autoencoder and saves:
 - Training loss plot → models/training_loss_plot.png
 
 2️⃣ Evaluate Model
+```bash
 python src/evaluate.py
+```
 
 Generates performance metrics and saves models/confusion_matrix.png.
 
 3️⃣ Run the Streamlit App
+```bash
 streamlit run app.py
+```
 
 4️⃣ Open the App
 Visit your browser at:
-
+```bash
 http://localhost:8501
+```
 
 You can enter transaction data manually or load a sample to see live fraud detection results.
 
@@ -162,15 +175,21 @@ Visual Outputs
 Contributions are welcome and appreciated!
 
 # Steps to contribute:
-### Fork the repository
+Fork the repository
 
-### Create your branch
+Create your branch
+```bash
 git checkout -b feature/AmazingFeature
+```
 
-### Commit your changes
+Commit your changes
+```bash
 git commit -m "Add some AmazingFeature"
+```
 
-### Push to your branch
+Push to your branch
+```bash
 git push origin feature/AmazingFeature
+```
 
-### Open a Pull Request
+Open a Pull Request
